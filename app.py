@@ -150,6 +150,18 @@ def get_custom_css() -> str:
                 linear-gradient(135deg, rgba(238, 246, 255, 0.96), rgba(246, 252, 250, 0.98)),
                 repeating-linear-gradient(45deg, rgba(12, 143, 143, 0.03) 0 1px, transparent 1px 18px);
             color: var(--ink);
+            input,
+textarea,
+select {
+    background-color: white !important;
+    color: black !important;
+}
+
+.stTextInput input,
+.stNumberInput input {
+    background-color: white !important;
+    color: black !important;
+}
         }
 
         [data-testid="stSidebar"] {
