@@ -1,4 +1,4 @@
-````markdown
+
 # 🧠 Parkinson's Disease Prediction System
 
 This is a **Machine Learning-based web application** built using **Streamlit** that predicts whether a person is likely to have **Parkinson's Disease** based on voice measurement features.
