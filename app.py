@@ -143,6 +143,56 @@ def get_custom_css() -> str:
             --success: #087f5b;
             --success-bg: #edfff8;
             --border: #dbe7ef;
+            /* Force Light Theme Inputs */
+
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background: white !important;
+    color: black !important;
+}
+
+.stSelectbox div[data-baseweb="select"] > div {
+    background: white !important;
+    color: black !important;
+}
+
+.stNumberInput button {
+    background: white !important;
+    color: black !important;
+}
+
+.stSelectbox svg {
+    color: black !important;
+}
+
+/* Labels */
+
+label,
+.stSelectbox label,
+.stNumberInput label,
+.stTextInput label {
+    color: #12324a !important;
+    font-weight: 600;
+}
+
+/* Tabs */
+
+button[role="tab"] {
+    color: #12324a !important;
+}
+
+/* File uploader */
+
+[data-testid="stFileUploader"] section {
+    background: white !important;
+}
+
+/* Metrics */
+
+[data-testid="stMetric"] {
+    background: white !important;
+}
         }
 
         .stApp {
