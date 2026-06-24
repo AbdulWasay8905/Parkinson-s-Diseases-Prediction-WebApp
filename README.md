@@ -144,12 +144,8 @@ The application will:
 ---
 
 ## 📸 Demo
+![App Screenshot](Parkinson's.png)
 
-Add screenshots of your Streamlit application here.
-
-```markdown
-![App Screenshot](screenshot.png)
-```
 
 ---
 
