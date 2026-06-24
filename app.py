@@ -193,6 +193,31 @@ button[role="tab"] {
 [data-testid="stMetric"] {
     background: white !important;
 }
+/* File Uploader Fix */
+
+[data-testid="stFileUploader"] {
+    background: white !important;
+}
+
+[data-testid="stFileUploader"] section {
+    background: white !important;
+    border: 2px dashed #0c8f8f !important;
+    border-radius: 8px !important;
+}
+
+[data-testid="stFileUploaderDropzone"] {
+    background: white !important;
+}
+
+[data-testid="stFileUploaderDropzone"] * {
+    color: #12324a !important;
+}
+
+[data-testid="stFileUploader"] button {
+    background: #0c8f8f !important;
+    color: white !important;
+    border: none !important;
+}
         }
 
         .stApp {
